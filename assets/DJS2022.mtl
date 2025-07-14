@@ -1,0 +1,15 @@
+# Blender MTL File: 'None'
+# Material Count: 1
+
+newmtl 23___Default
+	Ns 33.2193
+	Ni 1.5000
+	d 1.000000
+	Tr 1.0000
+	Tf 0.0000 0.0000 0.0000
+	illum 2
+	Ka 0.000000 0.000000 0.000000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.000000 0.000000 0.000000
+	map Kd camou.png	

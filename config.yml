@@ -1,0 +1,21 @@
+sys_flag: "win"
+iterative_step: 10000
+model_name: "retina_net"
+obj_file: 'assets/DJS2022.obj'
+tex_mask: 'assets/bj80_body_mask.png'
+texture_path: 'assets/body.png'
+conf_thresh: 0.5
+obj_conf: 0.1
+eval_images: 20
+min_circle_num: 5
+max_circle_num: 15
+min_circle_area_ratio: 0.001
+max_circle_area_ratio: 0.01
+
+block_type:
+  nature_image: 'seed_image_pools/cartoon'
+  adv_patch: 'seed_image_pools/adv_patch'
+  animals: 'seed_image_pools/animals'
+  black_white: 'seed_image_pools/cartoon'
+  square_attack: 'seed_image_pools/cartoon'
+  circle: 'seed_image_pools/cartoon'
